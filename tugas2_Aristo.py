@@ -2,7 +2,7 @@
 # Universitas Mercu Buana 
 # Tugas 2 - Pemrograman Lanjut
 
-#Pilihan Tugas Part A atau B
+# Pilihan Tugas Part A atau B
 print("Pilih part! \n1. Part A\n2. Part B")
 pilihan = int(input("Pilihan Anda: "))
 
@@ -10,10 +10,13 @@ pilihan = int(input("Pilihan Anda: "))
 import os
 os.system('cls')
 
+# Tugas Part A
 if pilihan == 1:
     n = int(input("Masukkan n: "))  
     for i in range(n):
         print(i**2)
+        
+# Tugas Part B
 elif pilihan == 2:
     n = int(input("Masukkan n: "))
     for i in range(n):
