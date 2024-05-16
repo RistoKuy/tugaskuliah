@@ -1,0 +1,1 @@
+decoded_string = re.sub(r'[^a-zA-Z0-9]+\b', r' ', decoded_string).strip()
